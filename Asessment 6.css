@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./shara-desert1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    font-size: 30px;
+}
+
+.nav{
+    background-color: none;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+     right: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size:15px;
+    margin:27px;
+    background-color: none;
+}
+
+.box-left{
+    background-color: none;
+    padding: 10px;
+    flex: 90%;
+}
+
+#img1{
+    margin-left: -250px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 70px;
+}
+
+h1{
+    color: white;
+    text-align: start;
+    margin-left: 150px;
+}
+
+#btn{
+    width: 170px;
+    height: 40px;
+    border: none;
+    color:black;
+    border-radius: 20px;
+    top: 320px;
+    left: 100px;
+    position: absolute;
+}
+
+.box-right{
+    background-color:none;
+    padding: 10px;
+    flex: 100%;
+    display: flex ;
+   flex-wrap: wrap; 
+    text-align: center;
+   box-sizing: border-box;
+
+  }
+ 
+.box1{
+    height: 230px;
+    width: 220px;
+    background-image: url(./shara-desert2.png);
+    background-size: cover;
+    margin: 30px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+}
+
+.box2{
+    height: 230px;
+    width: 220px;
+    background-image: url(./shara-desert4.png);
+    background-size:cover;
+    border-radius: 15px;
+    margin: 30px; 
+    text-align: center;
+    float:left;
+   
+}
+
+.box3{
+    height: 230px;
+    width: 220px;
+    background-image: url(./shara-desert5.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin: 30px;
+    text-align: center; 
+    float: left;
+}
+
+.box4{
+    height: 230px;
+    width: 220px;
+    background-image: url(./shara-desert3.png);
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    margin: 30px;
+    float: left;
+}
+
+.img{
+    height: 230px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.box:hover{ 
+    top: 20px;
+    left: 10px;
+    width: 220px;
+    height: 230px;
+    opacity: 1;
+    box-shadow: 0px 0px 20px #67676729;   
+}
+
+#icons{
+    border-radius: 50%;
+}
+
+h3{
+    margin-top: 30px;
+    font-size: 15px;
+     color: white;
+}
+
+.p1{
+    color: white;
+    font-size: 10px;
+    margin-left: 15px;
+    line-height: 30px;
+    text-align:left;
+}
+
+
+@media (max-width:856px)
+ {
+    .container{
+        width: 100%;
+        flex-direction:column;
+         height: auto;
+    }
+
+.box1 {
+    width: 100%;
+}
+.box2 {
+    width: 100%;
+}
+.box3 {
+    width: 100%;
+}
+.box4 {
+    width: 100%;
+}
+
+
+}
+ 
